@@ -1,0 +1,127 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-container {
+  display: flex;
+  height: 55%;
+  flex-direction: row;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+}
+
+.box {
+  height: 525px;
+  width: 700px;
+  box-shadow: 10px 10px 10px 25px hsl(204, 50%, 93%), 10px 10px 10px 25px hsl(204, 50%, 93%);
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Karla', sans-serif;
+}
+
+.button-sign {
+  height: 50px;
+  width: 85%;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 40px;
+  flex: 1;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+  font-weight: bold;
+}
+
+.left-bottom-container {
+  display: flex;
+  flex: 1;
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 8px;
+  padding: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-li {
+  color: hsl(204, 43%, 93%);
+}
+
+.main {
+  height: inherit;
+  width: inherit;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(218, 22%, 67%);
+  flex-direction: column;
+}
+
+#price {
+  margin-right: 10px;
+  color: white;
+}
+
+.price-container {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: hsl(204, 43%, 93%);
+}
+
+.right-bottom-container {
+  display: flex;
+  flex: 1;
+  background-color: hsl(218, 22%, 67%);
+  border-bottom-right-radius: 8px;
+  padding: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.top-container {
+  display: flex;
+  width: inherit;
+  height: 45%;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#top-container-content-up {
+  margin: 0;
+}
+
+#top-container-content-down {
+  margin: 0;
+}
+
+#top-container-sub-title {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
